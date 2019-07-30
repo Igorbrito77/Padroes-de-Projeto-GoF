@@ -2,19 +2,19 @@ package iterator;
 
 public class Product {
 	
-	private String nome;
-	private double valor;
+	private String name;
+	private double value;
 	
-	public Product(String nome , double valor) {
-		this.nome = nome;
-		this.valor = valor;
+	public Product(String name , double value) {
+		this.name = name;
+		this.value = value;
 	}
 	
-	public double getValor() {
-		return valor;
+	public double getValue() {
+		return value;
 	}
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
 }

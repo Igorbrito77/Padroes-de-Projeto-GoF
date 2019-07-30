@@ -12,7 +12,7 @@ public class ShowProducts {
 		Iterator it = new ProductIterator(list);
 		
 		for(; !it.isDone(); it.next()) {
-			System.out.println(it.currentItem().getNome() + " . Price: " + it.currentItem().getValor());
+			System.out.println(it.currentItem().getName() + " . Price: " + it.currentItem().getValue());
 		}
 				
 		
